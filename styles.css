@@ -1,0 +1,100 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure proper box sizing */
+}
+
+.barras{
+    display: none;
+}
+
+title img {
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    margin-right: 10px; /* Espacio a la derecha del logotipo */
+}
+.menu {
+    background-color: rgba(59, 34, 34, 0.267);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+.MYPAGE{
+    display: none;
+}
+.men{
+    padding: 10px;
+}
+
+
+.seccionpricipalcontainer{
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgacercademi{
+    display: flex;
+}
+
+.fondop{
+    max-height: 500px;
+    width: 100%;
+}
+
+
+.footerx{
+    background-color: grey;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .corazon1{
+        display: none;
+    }
+    .menu{
+        background-color: rgb(65, 40, 40);
+        display: flex;
+        justify-content: flex-start;
+    }
+    .men{
+        display: none;
+    }
+    .menu-button{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .barras{
+        display: inline;
+
+
+    }
+    .MYPAGE{
+        display: inline;
+        color: rgb(209, 204, 204);
+        
+    }
+    .Infosobremi{
+        min-width: 30%;
+    }
+    .footerx{
+        background: linear-gradient(135deg, #3498db, #c0392b);
+        width: 100%;
+    }
+    .seccionpricipalcontainer{
+        display: flex;
+        background: linear-gradient(135deg, #fff, black);
+        justify-content: flex-start;
+    }
+  }
+
+
